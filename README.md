@@ -56,6 +56,9 @@ There are two Pods named o3db-* in Namespace project-c13. C13 management asked y
 
 Scaling Replicas
 ```
+
+k -n project-c13 get deploy,ds,sts | grep o3db
+
 k -n project-c13 scale statefulset 03db --replicas=1
 ```
 # Q4

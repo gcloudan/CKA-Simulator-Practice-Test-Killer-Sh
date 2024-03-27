@@ -1,5 +1,16 @@
 # CKA-Simulator-Practice-Test-Killer-Sh
 
+# Prerequisites
+locate .bashrc
+
+export do=’—dry-run=client -o yaml’
+
+# set numbers in vi
+
+vi ~/.vimrc
+
+set mouse=r
+
 # Q1
 
 You have access to multiple clusters from your main terminal through kubectl contexts. Write all those context names into /opt/course/1/contexts.
